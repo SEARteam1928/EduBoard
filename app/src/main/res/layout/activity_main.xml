@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btNext"
+        android:layout_width="50sp"
+        android:layout_height="70sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/baseline_arrow_forward_ios_24" />
+
+    <Button
+        android:id="@+id/btSend"
+        android:layout_width="290sp"
+        android:layout_height="100sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="50sp"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:background="@drawable/send_bt"
+        android:text="Отправить" />
+
+    <WebView
+        android:id="@+id/webChanges"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_centerInParent="false"
+        android:visibility="gone" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btPrev"
+        android:layout_width="50sp"
+        android:layout_height="70sp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/baseline_arrow_back_ios_24" />
+
+    <ImageView
+        android:id="@+id/mapImage"
+        android:layout_width="290sp"
+        android:layout_height="290sp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/web_hi_res_512" />
+
+    <TextView
+        android:id="@+id/levelTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:text="TextView"
+        android:textColor="#002AFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>
