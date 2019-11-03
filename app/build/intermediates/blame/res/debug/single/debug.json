@@ -4,22 +4,6 @@
         "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-hdpi_baseline_arrow_back_white_36.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-hdpi/baseline_arrow_back_white_36.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-mdpi_baseline_arrow_back_white_36.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-mdpi/baseline_arrow_back_white_36.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_baseline_arrow_forward_ios_24.xml.flat",
         "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/baseline_arrow_forward_ios_24.xml"
     },
@@ -30,6 +14,114 @@
     {
         "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_baseline_arrow_back_24.xml.flat",
         "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_field_6.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/field_6.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xhdpi_baseline_arrow_back_white_18.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xhdpi/baseline_arrow_back_white_18.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_field_2.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/field_2.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_field_3.jpg.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/field_3.jpg"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/layout_splash.xml.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_baseline_refresh_24.xml.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/baseline_refresh_24.xml"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-hdpi_baseline_arrow_back_white_18.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-hdpi/baseline_arrow_back_white_18.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable_send_bt.xml.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable/send_bt.xml"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_baseline_arrow_back_white_24.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxxhdpi/baseline_arrow_back_white_24.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-mdpi_baseline_arrow_back_white_18.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-mdpi/baseline_arrow_back_white_18.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_example1.jpg.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/example1.jpg"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_baseline_arrow_back_white_18.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxxhdpi/baseline_arrow_back_white_18.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-mdpi_baseline_arrow_back_white_24.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-mdpi/baseline_arrow_back_white_24.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_baseline_arrow_forward_24.xml.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/baseline_arrow_forward_24.xml"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xhdpi_baseline_arrow_back_white_36.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xhdpi/baseline_arrow_back_white_36.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_example.jpg.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/example.jpg"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_baseline_arrow_back_ios_24.xml.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-hdpi_baseline_arrow_back_white_36.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-hdpi/baseline_arrow_back_white_36.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-mdpi_baseline_arrow_back_white_36.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-mdpi/baseline_arrow_back_white_36.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_field_1.jpg.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/field_1.jpg"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
@@ -52,8 +144,8 @@
         "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xhdpi_baseline_arrow_back_white_18.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xhdpi/baseline_arrow_back_white_18.png"
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_field_5.jpg.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/field_5.jpg"
     },
     {
         "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
@@ -84,60 +176,16 @@
         "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xhdpi/baseline_arrow_back_white_24.png"
     },
     {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/layout_splash.xml.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/layout/splash.xml"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_baseline_refresh_24.xml.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/baseline_refresh_24.xml"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-hdpi_baseline_arrow_back_white_18.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-hdpi/baseline_arrow_back_white_18.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable_send_bt.xml.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable/send_bt.xml"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_baseline_arrow_back_white_24.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxxhdpi/baseline_arrow_back_white_24.png"
-    },
-    {
         "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-mdpi_baseline_arrow_back_white_48.png.flat",
         "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-mdpi/baseline_arrow_back_white_48.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-mdpi_baseline_arrow_back_white_18.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-mdpi/baseline_arrow_back_white_18.png"
     },
     {
         "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_baseline_arrow_back_white_24.png.flat",
         "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxhdpi/baseline_arrow_back_white_24.png"
     },
     {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-mdpi_baseline_arrow_back_white_24.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-mdpi/baseline_arrow_back_white_24.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_baseline_arrow_back_white_18.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxxhdpi/baseline_arrow_back_white_18.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_baseline_arrow_forward_24.xml.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/baseline_arrow_forward_24.xml"
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_field_7.jpg.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/field_7.jpg"
     },
     {
         "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_baseline_arrow_back_white_36.png.flat",
@@ -148,23 +196,11 @@
         "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_field_4.jpg.flat",
+        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/field_4.jpg"
+    },
+    {
         "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_baseline_arrow_back_white_36.png.flat",
         "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xxxhdpi/baseline_arrow_back_white_36.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/mipmap-xhdpi_baseline_arrow_back_white_36.png.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/mipmap-xhdpi/baseline_arrow_back_white_36.png"
-    },
-    {
-        "merged": "/home/user/Документы/EduBoard/app/build/intermediates/res/merged/debug/drawable-v24_baseline_arrow_back_ios_24.xml.flat",
-        "source": "/home/user/Документы/EduBoard/app/src/main/res/drawable-v24/baseline_arrow_back_ios_24.xml"
     }
 ]

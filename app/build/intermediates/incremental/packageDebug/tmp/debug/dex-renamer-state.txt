@@ -1,4 +1,4 @@
-#Sat Nov 02 14:06:49 YEKT 2019
+#Sun Nov 03 09:11:00 YEKT 2019
 base.0=/home/user/Документы/EduBoard/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

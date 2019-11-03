@@ -665,6 +665,15 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable example
+drawable example1
+drawable field_1
+drawable field_2
+drawable field_3
+drawable field_4
+drawable field_5
+drawable field_6
+drawable field_7
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background

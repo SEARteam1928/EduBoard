@@ -10,10 +10,7 @@ import android.os.Handler
 import android.view.View
 import android.webkit.WebSettings
 import android.webkit.WebView
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageView
-import android.widget.Toast
+import android.widget.*
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.apache.http.client.methods.HttpGet
@@ -27,10 +24,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private var btSend: Button? = null
     private var btNext: Button? = null
     private var btPrev: Button? = null
+    private var levelTv: TextView? = null
 
     private lateinit var mapImage: ImageView
 
-    private var selectInt: Int = 0
+    private var selectInt: Int = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,34 +40,58 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onClick(v: View?) {
-        when(v!!.id){
-            R.id.btSend -> openBrowser("http://192.168.4.1/?id="+"Send")
-            R.id.btNext -> openBrowser("http://192.168.4.1/?id="+"Next")
-            R.id.btPrev -> openBrowser("http://192.168.4.1/?id="+"Prev")
+        when (v!!.id) {
+            R.id.btSend -> openBrowser("http://192.168.10.1/config?id=$selectInt$selectInt$selectInt,$selectInt$selectInt$selectInt,$selectInt$selectInt$selectInt,$selectInt$selectInt$selectInt,$selectInt$selectInt$selectInt")
+            R.id.btNext -> toNextImage()
+            R.id.btPrev -> toPrevImage()
+        }
+        select()
+        levelTv!!.text = "Уровень " + (selectInt).toString()
+    }
+
+    private fun toNextImage() {
+        if (selectInt < 7) {
+            btPrev!!.visibility = View.VISIBLE
+            selectInt++
+        } else {
+            btNext!!.visibility = View.GONE
         }
     }
 
-    private fun select(){
-        when(selectInt){
-            0 ->{
-                selectInt = 1
-                mapImage.visibility = View.GONE
-            }
-            1 ->{
-                selectInt = 0
-                mapImage.visibility = View.VISIBLE
-            }
+    private fun toPrevImage() {
+        if (selectInt > 1) {
+            btNext!!.visibility = View.VISIBLE
+            selectInt--
+        } else {
+            btPrev!!.visibility = View.GONE
         }
     }
 
-    private fun openBrowser(url: String){
+    private fun setImg(id: Int){
+        mapImage.setImageDrawable(resources.getDrawable(id))
+    }
+
+    private fun select() {
+        when (selectInt) {
+            1 -> setImg(R.drawable.field_1)
+            2 -> setImg(R.drawable.field_2)
+            3 -> setImg(R.drawable.field_3)
+            4 -> setImg(R.drawable.field_4)
+            5 -> setImg(R.drawable.field_5)
+            6 -> setImg(R.drawable.field_6)
+            7 -> setImg(R.drawable.field_7)
+        }
+    }
+
+    private fun openBrowser(url: String) {
         webChanges!!.loadUrl(url)
-        Toast.makeText(this@MainActivity,url,Toast.LENGTH_LONG).show()
+        Toast.makeText(this@MainActivity, url, Toast.LENGTH_LONG).show()
         select()
     }
 
-    private fun initViews(){
+    private fun initViews() {
         webChanges = findViewById(R.id.webChanges)
         btSend = findViewById(R.id.btSend)
         btSend!!.setOnClickListener(this)
@@ -81,6 +103,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btPrev!!.setOnClickListener(this)
 
         mapImage = findViewById(R.id.mapImage)
+        levelTv = findViewById(R.id.levelTv)
+        levelTv!!.text = "Уровень 1"
+        mapImage.setImageDrawable(resources.getDrawable(R.drawable.field_1))
 
         webChanges!!.settings.javaScriptEnabled
         webChanges!!.settings.builtInZoomControls
@@ -103,7 +128,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     object DetectConnection {
         fun checkInternetConnection(context: Context?): Boolean {
 
-            val conManager = context!!.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+            val conManager =
+                context!!.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
 
             return (conManager.activeNetworkInfo != null
                     && conManager.activeNetworkInfo!!.isAvailable
